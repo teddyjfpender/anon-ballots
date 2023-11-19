@@ -1,9 +1,8 @@
-# Protokit: Starter kit
+# Anon-Ballots Creation
 
-Starter kit for developing privacy enabled application chains. (zkChains)
+This is an example (likely over engineered) of how to use a merkle tree of balances and mint anon ballots in a Protokit `runtimeModule`. Note, the voting weight is not encrypted and while the ballots live at anonymous addresses it is still possible to view which transaction they were created in and therefore the true privacy is not achieved.
 
-The default example contains a simple zkChain with one runtime module - `src/Balances.ts`.
-Integration tests for the Balances module can be found in `src/Balances.test.ts`.
+![Diagram](public/anonBallots.png)
 
 **Quick start:**
 
